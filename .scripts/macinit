@@ -1,0 +1,15 @@
+# show hidden files by default
+defaults write com.apple.Finder AppleShowAllFiles true
+
+# install X Code tools (might take quite long)
+xcode-select --install
+
+# install Homebrew package manager
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install a few brew packages
+brew tap clementtsang/bottom
+brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv zoxide zplug
+
+# install krypton (for managing SSH keys)
+curl https://krypt.co/kr | sh

@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # SET DEFAULT EDITOR
-export EDITOR=nova
+export EDITOR=code
 
 # LOAD ALIASES
 source $HOME/.aliases
@@ -62,3 +62,5 @@ eval "$(zoxide init zsh)"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 p10k finalize
+
+source /Users/ilja.panic/.config/broot/launcher/bash/br
