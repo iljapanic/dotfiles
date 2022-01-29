@@ -1,0 +1,11 @@
+DEST_DIR="$HOME/dev/dotfiles"
+
+# zsh related
+cp $HOME/.zshrc $DEST_DIR
+cp $HOME/.p10k.zsh $DEST_DIR
+
+# aliases
+cp $HOME/.aliases $DEST_DIR
+
+# scripts
+cp -R $HOME/.scripts $DEST_DIR

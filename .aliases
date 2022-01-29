@@ -1,0 +1,31 @@
+#!/bin/zsh
+alias edit=$EDITOR
+alias c="clear"
+alias zshconfig="$EDITOR $HOME/.zshrc"
+alias zshsource="source $HOME/.zshrc"
+alias aliases="$EDITOR $HOME/.aliases"
+
+# moving around
+alias ..="cd .."
+alias cd..="cd .."
+
+# working with files
+alias ls="lsd"
+alias l="ls -l"
+alias la="ls -la"
+alias lla="ls -la"
+alias lt="ls --tree --depth=2"
+alias ltt="ls --tree"
+alias lss="ls -Slh" # sort by size
+
+# git aliases
+alias g="git"
+alias gs="git status"
+alias gp="git push"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gpl="git pull"
+
+# utilities
+alias speed="npx speed-cloudflare-cli" # test internet speed via Cloudflare 
+alias npmcheck="npx npm-check-updates" # check for outaded npm packages

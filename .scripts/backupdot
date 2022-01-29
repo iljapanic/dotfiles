@@ -1,0 +1,11 @@
+copydot
+
+cd $HOME/dev/dotfiles
+
+git add --all
+
+git commit -m "automatic dotfile backup"
+
+git push -u origin master
+
+cd $HOME
