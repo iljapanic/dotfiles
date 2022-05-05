@@ -9,7 +9,9 @@ xcode-select --install
 
 # install a few brew packages
 brew tap clementtsang/bottom
+brew tap homebrew/cask-fonts
 brew install bottom broot cheat fzf gping lsd mas pyenv pyenv-virtualenv zoxide zplug
+brew install --cask font-meslo-lg-nerd-font
 
 # install krypton (for managing SSH keys)
 curl https://krypt.co/kr | sh

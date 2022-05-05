@@ -1,4 +1,5 @@
 #!/bin/zsh
+alias code=$EDITOR
 alias edit=$EDITOR
 alias c="clear"
 alias zshconfig="$EDITOR $HOME/.zshrc"
@@ -27,5 +28,5 @@ alias gc="git commit -m"
 alias gpl="git pull"
 
 # utilities
-alias speed="npx speed-cloudflare-cli" # test internet speed via Cloudflare 
-alias npmcheck="npx npm-check-updates" # check for outaded npm packages
+alias speed="npx speed-cloudflare-cli" # test internet speed via Cloudflare
+alias npmcheck="npx npm-check-updates -i" # check for outaded npm packages

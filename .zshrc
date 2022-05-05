@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # SET DEFAULT EDITOR
-export EDITOR=code
+export EDITOR='code'
 
 # LOAD ALIASES
 source $HOME/.aliases
@@ -18,10 +18,16 @@ autoload -Uz autoscript # creates a new executable script (don't forget to autol
 autoload -Uz timeshell # test shell loading speed
 autoload -Uz copydot # copy dotfiles to repo
 autoload -Uz backupdot # push dotfiles to remote repo
+autoload -Uz scanner # convert PDF to look scanned (using imagemagick)
+autoload -Uz getLocalIp # get device IP address on the local network
 
 
 # ZPLUG INIT
 source ~/.zplug/init.zsh
+
+# Enable auto-fixing of capitalization
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # load zsh plugins
 zplug "zsh-users/zsh-history-substring-search"
@@ -55,6 +61,9 @@ tab_title() {
   echo -ne "\e]1;${PWD##*/}\a"
 }
 add-zsh-hook precmd tab_title
+
+# load global composer packages
+export PATH=${PATH}:~/.composer/vendor/bin
 
 # initialize zoxide (`z` command)
 eval "$(zoxide init zsh)"
