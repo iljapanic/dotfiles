@@ -9,3 +9,6 @@ cp $HOME/.aliases $DEST_DIR
 
 # scripts
 cp -R $HOME/.scripts $DEST_DIR
+
+# configs
+cp -R $HOME/.hyper.js $DEST_DIR
