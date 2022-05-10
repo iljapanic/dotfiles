@@ -31,7 +31,7 @@ brew install brave-browser
 brew install calibre
 brew install choosy
 brew install cleanmymac
-brew install cleanshot
+# brew install cleanshot - issues with SMA key
 brew install contexts
 brew install cron
 brew install dictionaries
@@ -39,7 +39,7 @@ brew install discord
 brew install fantastical
 brew install fig
 brew install figma
-brew install figmadaemon
+# brew install figmadaemon - issues with installation
 brew install firefox
 brew install focus
 brew install google-chrome
@@ -47,6 +47,7 @@ brew install handbrake
 brew install hazel
 brew install hazeover
 brew install hyper
+brew install iconjar
 brew install imageoptim
 brew install istat-menus
 brew install keepingyouawake
@@ -58,6 +59,7 @@ brew install loom
 brew install macdown
 brew install mark-text
 brew install messenger
+brew install mounty
 brew install name-mangler
 brew install netspot
 brew install nextcloud
@@ -80,6 +82,7 @@ brew install shifty
 brew install sip
 brew install skype
 brew install slack
+brew install soulseek
 brew install spotify
 brew install subtitles
 brew install swinsian
@@ -100,6 +103,3 @@ brew install vnc-viewer
 brew install whatsapp
 brew install zoom
 brew install zotero
-brew install mounty
-brew install soulseek
-brew install iconjar
