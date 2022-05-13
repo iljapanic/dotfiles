@@ -16,33 +16,44 @@ The recommended execution order is as follows:
 
 1. `$ ./macos.sh`
 2. In parallel:
-    1. `$ ./brew.sh`
-    2. `$ ./cask.sh`
-    3. `$ ./mas.sh` (start after `mas` has been installed by `brew.sh`)
+   1. `$ ./brew.sh`
+   2. `$ ./cask.sh`
+   3. `$ ./mas.sh` (start after `mas` has been installed by `brew.sh`)
 3. `$ ./pip.sh`
 4. `$ ./npm.sh`
 5. `$ ./dock.sh`
 
-
 ## Apps that need to be installed manually
 
 - [Hemingway App](https://hemingwayapp.com/desktop.html) ([Gumroad dashboard](https://app.gumroad.com/))
-- [Mp3tag](https://www.mp3tag.de/download.html)
 
 ## Exporting settings
 
 Make sure you export libraries and settings from the following apps before migrating:
 
-- [] BetterTouchTool
-- [] Brave (sync chain)
-- [] Choosy
-- [] Dictionaries
-- [] MP3tag
-- [] Raycast
-- [] Swinisian
-- [] Transmit
-- [] VSCode config (sync plugin)
-- [] (Calibre) - should be moved to self-hosted cloud
+- [ ] BetterTouchTool
+
+- [ ] Brave (sync chain)
+
+- [ ] Choosy
+
+- [ ] Dictionaries
+
+- [ ] MP3tag
+
+- [ ] Raycast
+
+- [ ] Swinisian
+
+- [ ] Transmit
+
+- [ ] VSCode config (sync plugin)
+
+- [ ] (Calibre) - should be moved to self-hosted cloud
+
+## Todo
+
+- [ ] Create a script that exports app defaults
 
 ## Configurable
 
@@ -50,8 +61,6 @@ Make sure to cofigure following apps before starting to use the computer:
 
 - Backblaze
 - NextCloud
-
-
 
 ## Credits
 
