@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Start fresh
 dockutil --remove all
 

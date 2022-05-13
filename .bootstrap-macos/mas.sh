@@ -18,6 +18,7 @@ mas install 405399194 # Kindle
 mas install 1534275760 #LanguageTool
 mas install 472226235 # LanScan
 mas install 1289197285 # MindNode
+mas install 1532597159 # MP3tag
 mas install 881415018 # Mytuner Pro
 mas install 1464122853 # NextDNS
 mas install 504700302 # PDF Squeezer 3

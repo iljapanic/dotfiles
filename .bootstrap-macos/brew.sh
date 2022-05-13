@@ -73,7 +73,7 @@ brew install htop
 brew install imagemagick
 brew install speedtest-cli
 brew install youtube-dl
-
+brew install smudge/smudge/nightlight
 
 ### copied for potential future use ###
 
