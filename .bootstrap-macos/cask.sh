@@ -85,6 +85,7 @@ brew install slack
 brew install soulseek
 brew install spotify
 brew install subtitles
+brew install swiftdefaultappsprefpane
 brew install swinsian
 brew install teamviewer
 brew install telegram
