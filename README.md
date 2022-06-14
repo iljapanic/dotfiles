@@ -54,6 +54,7 @@ Make sure you export libraries and settings from the following apps before migra
 ## Todo
 
 - [ ] Create a script that exports app defaults
+- [ ] Configure [stow](https://www.gnu.org/software/stow/) to symlink dotfiles
 
 ## Configurable
 
